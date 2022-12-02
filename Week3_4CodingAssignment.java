@@ -8,6 +8,8 @@ public class Week3_4CodingAssignment {
 		//Int Array Question # 1
 		
 		int[]ages = {3,9,23,64,2,8,28,93,75};
+		
+		//double Array for question #11 & # 13
 		double[] doubleArray = {45.5, 33.2, 97.9, 75.6};
 		double [] newDoubleArray = {45.6, 33.2, 97.9, 75.6};
 		{
@@ -135,7 +137,8 @@ public class Week3_4CodingAssignment {
 			
 		// 13.  The method passSecond grade takes a boolean that is true if a student is reading at grade level and a double
 		//    	checks the average test score of a student. It will return true if a student is reading at grade level and their average
-		// 		test score is greater than 50 percent.
+		// 		test score is greater than 50 percent.  I created it to determine whether or not a student will pass second grade.
+		
 		public static boolean passSecondGrade (boolean readingAtGradeLevel, double averageTestScores[])
 			{
 				double sum = 0;
